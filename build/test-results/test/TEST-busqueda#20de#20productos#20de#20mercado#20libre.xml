@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="busqueda de productos de mercado libre" tests="3" skipped="0" failures="1" errors="0" timestamp="2022-08-16T12:18:46" hostname="DESKTOP-P3OGUBB" time="92.708">
+  <properties/>
+  <testcase name="Busqueda productos en mercado libre" classname="busqueda de productos de mercado libre" time="31.223">
+    <failure message="java.lang.AssertionError: &#10;Expected: &quot;Rex Dinosaurio Toy Story, Rex Original Disney Store.&quot;&#10;     but: was &quot;Dinosaurio Rex Interactivo Toy Story Original De Disney&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: &quot;Rex Dinosaurio Toy Story, Rex Original Disney Store.&quot;
+     but: was &quot;Dinosaurio Rex Interactivo Toy Story Original De Disney&quot;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:301)
+	at co.com.mercadolibre.stepDefinitions.SearchProductsBackgroundStepDefinitions.validoElProducto(SearchProductsBackgroundStepDefinitions.java:36)
+	at ✽.valido el producto(src/test/resources/co.com.mercadolibre.features/busquedaproductobackground.feature:11)
+</failure>
+  </testcase>
+  <testcase name="Busqueda productos en mercado libre" classname="busqueda de productos de mercado libre" time="31.73"/>
+  <testcase name="Busqueda productos en mercado libre" classname="busqueda de productos de mercado libre" time="29.75"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 10601
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660652328.061][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+ago 16, 2022 7:18:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Busqueda productos en mercado libre
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then el actor compara el nombre del producto should be 'Rex Dinosaurio Toy Story, Rex Original Disney Store.'
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected: "Rex Dinosaurio Toy Story, Rex Original Disney Store." but: was "Dinosaurio Rex Interactivo Toy Story Original De Disney"
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 18718
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660652359.279][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+ago 16, 2022 7:19:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Busqueda productos en mercado libre
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then el actor compara el nombre del producto should be 'Rex Dinosaurio Toy Story, Rex Original Disney Store.'
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected: "Rex Dinosaurio Toy Story, Rex Original Disney Store." but: was "Dinosaurio Rex Interactivo Toy Story Original De Disney"
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 12477
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1660652390.995][WARNING]: This version of ChromeDriver has not been tested with Chrome version 104.
+ago 16, 2022 7:19:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Busqueda productos en mercado libre
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then el actor compara el nombre del producto should be 'Rex Dinosaurio Toy Story, Rex Original Disney Store.'
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected: "Rex Dinosaurio Toy Story, Rex Original Disney Store." but: was "Dinosaurio Rex Interactivo Toy Story Original De Disney"
+]]></system-err>
+</testsuite>

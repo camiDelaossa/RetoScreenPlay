@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Busqueda productos en mercado libre" skipped="0" tests="5" time="155.11" timestamp="2022-08-16 07:20:20"><testcase name="Buscar productosteclado logitech pop"><failure message="&#10;Expected: &quot;Audífonos in-ear inalámbricos Xiaomi Redmi AirDots negro&quot;&#10;     but: was &quot;Audífonos in-ear gamer inalámbricos Xiaomi Redmi Buds 3 Lite negro&quot;" type="java.lang.AssertionError">
+Expected: "Audífonos in-ear inalámbricos Xiaomi Redmi AirDots negro"
+     but: was "Audífonos in-ear gamer inalámbricos Xiaomi Redmi Buds 3 Lite negro"</failure><system-err>
+Expected: "Audífonos in-ear inalámbricos Xiaomi Redmi AirDots negro"
+     but: was "Audífonos in-ear gamer inalámbricos Xiaomi Redmi Buds 3 Lite negro"&#13;
+co.com.mercadolibre.stepDefinitions.SearchProductsOutLineStepDefinition.validoElNombreDelProducto(SearchProductsOutLineStepDefinition.java:45)&#13;
+✽.valido el nombre del producto Audífonos in-ear inalámbricos Xiaomi Redmi AirDots negro(src/test/resources/co.com.mercadolibre.features/searchproductoutline.feature:7)&#13;
+</system-err></testcase></testsuite>

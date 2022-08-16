@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Busqueda en mercado libre","Busqueda en mercado libre","SUCCESS","2022-08-16T07:17:27.467-05:00[America/Bogota]","0.0","43.92"
+"busqueda de productos de mercado libre","Busqueda productos en mercado libre","FAILURE","2022-08-16T07:18:46.966-05:00[America/Bogota]","0.0","91.99"
+"Busqueda random en mercado libre","Busqueda de productos en mercado libre","SUCCESS","2022-08-16T07:18:14.272-05:00[America/Bogota]","0.0","31.5"
+"Busqueda productos en mercado libre","Buscar productosteclado logitech pop","FAILURE","2022-08-16T07:20:20.78-05:00[America/Bogota]","0.0","155.11"

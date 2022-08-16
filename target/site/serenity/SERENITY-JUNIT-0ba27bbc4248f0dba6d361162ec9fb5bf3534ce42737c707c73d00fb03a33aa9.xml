@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="busqueda de productos de mercado libre" skipped="0" tests="1" time="91.99" timestamp="2022-08-16 07:18:46"><testcase name="Busqueda productos en mercado libre"><failure message="&#10;Expected: &quot;Rex Dinosaurio Toy Story, Rex Original Disney Store.&quot;&#10;     but: was &quot;Dinosaurio Rex Interactivo Toy Story Original De Disney&quot;" type="java.lang.AssertionError">
+Expected: "Rex Dinosaurio Toy Story, Rex Original Disney Store."
+     but: was "Dinosaurio Rex Interactivo Toy Story Original De Disney"</failure><system-err>
+Expected: "Rex Dinosaurio Toy Story, Rex Original Disney Store."
+     but: was "Dinosaurio Rex Interactivo Toy Story Original De Disney"&#13;
+co.com.mercadolibre.stepDefinitions.SearchProductsBackgroundStepDefinitions.validoElProducto(SearchProductsBackgroundStepDefinitions.java:36)&#13;
+✽.valido el producto(src/test/resources/co.com.mercadolibre.features/busquedaproductobackground.feature:11)&#13;
+</system-err></testcase></testsuite>
